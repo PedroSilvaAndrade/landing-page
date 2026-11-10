@@ -1,11 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
 .headers {
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
     color: #FFFFFF;
-    font-family: 'Roboto', sans-serif;
     align-items: center;
     height: 50px;
     white-space: nowrap;
@@ -14,7 +21,7 @@
 .header-logo {
     margin-left: 350px;
     font-size: 24px;
-    font-color: #F9FAF8;
+    color: #F9FAF8;
 }
 
 
@@ -42,7 +49,6 @@
     text-align: left;
     margin-left: 350px;
     margin-right: 100px;
-    font-family: 'Roboto', sans-serif;
 }
 
 .image {
@@ -74,7 +80,6 @@
     height: 40px;
     margin-top: 20px;
     border: none;
-    font-family: 'Roboto', sans-serif;
     border-radius: 5px;
 }
 
@@ -83,19 +88,95 @@
     background-color: #ffffff;
     color: black;
     display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.random-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    height: 25%;
+    padding: 10px;
+    text-align: center;
 }
 
 .div-same-texts {
     justify-content: space-between;
     display: flex;
-    gap: 80px;
     align-items: center;
-    margin-left: 550px;
-    margin-right: 550px;
+    margin-left: 525px;
+    margin-right: 525px;
     text-align: center;
-    margin-top: 250px;
 }
 
 .div-same-squares {
-    background-color: #F9FAF8;
+    display: flex;
+    gap: 45px;
+    justify-content: center;
+}
+
+.square1, .square2, .square3, .square4 {
+    height: 180px;
+    width: 180px;
+    border-radius: 10px;
+    border: 3px solid #3882F6;
+}
+
+.div-quote {
+    background-color: #E5E7EB;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.quote {
+    margin-top: 120px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: center;
+}
+
+.author {
+    text-align: right;
+    margin-right: 600px;
+    font-size: 20px;
+}
+
+.div-footer {
+    height: 300px;
+    display: flex;
+
+}
+
+
+#footer-button {
+    color:#FFFFFF;
+    background-color: #3882F6;
+    border-radius: 10px;
+    border-color: #FFFFFF;
+    height: 50px;
+    width: 150px;
+    border-width: 2px;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: #FFFFFF;
+    height: 100px;
+    width: 900px;
+    text-align: left;
+    padding-top: 40px;
+    padding-left: 100px;
+    margin-left: 400px;
+    margin-top: 100px;
+    padding-right: 100px;
 }
